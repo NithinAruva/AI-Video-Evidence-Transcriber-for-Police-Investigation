@@ -1,4 +1,4 @@
-# Market Research and Use-Case Generation Agent
+# AI Video Evidence Transcriber for Police Investigation
 
 The police investigation department frequently handles large volumes of video evidence, including CCTV footage, body cam recordings, and other visual data. 
 Manually reviewing this video content is both time-intensive and prone to human error. 
