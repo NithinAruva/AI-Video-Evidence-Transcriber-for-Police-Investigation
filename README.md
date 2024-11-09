@@ -12,3 +12,12 @@ This Project allows to develop an AI-powered system designed to streamline this 
 - **User-Friendly Interface**: A streamlined UI allows the investigation team to review, adjust, and search AI-generated insights. This interface, developed using tools like Streamlit, delivers real-time system feedback and reference links, enhancing accessibility.
 - **Question-Answer Bot (QA Bot)**: A Q&A bot lets users query specific details within the case file. This feature uses LLM-based search and refinement, ensuring accurate and contextually relevant answers for investigators’ queries.
 
+# Working
+
+![1](https://github.com/user-attachments/assets/415c4804-a10f-44bb-969f-973ce6e14cf0)
+![2](https://github.com/user-attachments/assets/0d3386c6-3b93-4a85-9888-723085178a73)
+![3](https://github.com/user-attachments/assets/37c905a7-8715-4e3b-8ef6-8815feefbc6c)
+![4](https://github.com/user-attachments/assets/83fa3431-b370-44ea-af9e-6c80cefa5f3f)
+![5](https://github.com/user-attachments/assets/288e391d-218d-4f2e-93fc-444948c2de56)
+![6](https://github.com/user-attachments/assets/b86fc7b9-fba7-4a12-a1e6-5f2abf0733d3)
+![7](https://github.com/user-attachments/assets/d0367e24-944c-4be9-9f2a-3b1c29ab2779)
