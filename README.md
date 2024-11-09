@@ -14,24 +14,37 @@ This Project allows to develop an AI-powered system designed to streamline this 
 
 # Usage
 **Step 1**: Open the user interface through your browser, click on the “Choose File” button to select a video from your local storage and click on upload video.
+
 ![Screenshot 2024-11-09 214848](https://github.com/user-attachments/assets/8abd047c-ef70-4b41-86a3-2f9ca00a0e2e)
 
+
 **Step 2**: Click on the “Choose File” button to select a video from your local storage and click on upload video.
+
 ![2](https://github.com/user-attachments/assets/0d3386c6-3b93-4a85-9888-723085178a73)
+
 
 **Step 3**: Once the video is uploaded, the “Generate Report” button will appear and click the “Generate Report” button to generate the report and download it as a PDF file to
 your local storage.
+
 ![3](https://github.com/user-attachments/assets/37c905a7-8715-4e3b-8ef6-8815feefbc6c)
 
+
 **Step 4**: Open the downloaded PDF to view the Case File report.
+
 ![4](https://github.com/user-attachments/assets/83fa3431-b370-44ea-af9e-6c80cefa5f3f)
 
+
 **Step 5**: At the bottom of the user interface, click on the “Start Chat” button.
+
 ![5](https://github.com/user-attachments/assets/288e391d-218d-4f2e-93fc-444948c2de56)
 
+
 **Step 6**: You will be redirected to a new page where the chatbot interface will open.
+
 ![6](https://github.com/user-attachments/assets/b86fc7b9-fba7-4a12-a1e6-5f2abf0733d3)
+
 
 **Step 7**: Click on the “Enter your query” text field, type your question, and press "Enter" on your
 keyboard or click the “upward arrow” icon next to the text field and the chatbot will provide a response to your query.
+
 ![7](https://github.com/user-attachments/assets/d0367e24-944c-4be9-9f2a-3b1c29ab2779)
