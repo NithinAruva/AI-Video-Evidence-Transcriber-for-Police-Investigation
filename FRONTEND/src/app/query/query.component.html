@@ -1,0 +1,19 @@
+<div class="chat-container">
+  <div class="chat-header">
+    <h6>Ask your Query</h6>
+  </div>
+
+  <div class="chat-body">
+    <div *ngFor="let message of chatMessages" class="chat-message" [ngClass]="{'user': message.sender === 'User', 'bot': message.sender === 'Suthradhar'}">
+      <p>{{ message.sender }}:</p> {{ message.message }}
+    </div>
+  </div>
+
+  <div class="chat-input">
+    <input type="text" [(ngModel)]="userQuery" placeholder="Enter your query..." (keyup.enter)="sendQuery()">
+    <button (click)="sendQuery()" [disabled]="isLoading" >
+      <i *ngIf="isLoading" class="fas fa-spinner fa-spin"></i>
+      <i *ngIf="!isLoading" class="fas fa-arrow-up"></i>
+    </button>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<h1 class="heading">Welcome to Suthradhar</h1>
+<div class="generate-report-container">
+
+  <div class="upload-section">
+    <div>
+      <h6 class="desc">Upload video to get the report</h6>
+    </div>
+    <br>
+    <input type="file" accept="video/*" (change)="onFileChange($event)" />
+    <br>
+    <button (click)="uploadVideo()" [disabled]="isLoadingUpload || isLoadingReport">
+      <i *ngIf="isLoadingUpload" class="fas fa-spinner fa-spin"></i>
+      Upload video
+    </button>
+    <br>
+    <button *ngIf="isVideoUploaded" [disabled]="isLoadingReport" (click)="getReport()">
+      <i *ngIf="isLoadingReport" class="fas fa-spinner fa-spin"></i>
+      Generate Report
+    </button>
+  </div>
+
+  <!-- Chat button -->
+  <div class="chat-icon" *ngIf="reportGenerated" (click)="startChat()">
+    <i class="fas fa-comment"></i> Start Chat
+  </div>
+</div>

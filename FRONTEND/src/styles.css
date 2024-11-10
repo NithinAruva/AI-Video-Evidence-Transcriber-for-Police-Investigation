@@ -1,0 +1,26 @@
+/* Global styles */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('./assets/main.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the entire screen */
+  font-family: "Times New Roman", Times, serif;
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a dark overlay if needed */
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Ensure content centers both vertically and horizontally */
+  width: 100vw; /* Full viewport width */
+}
+
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
